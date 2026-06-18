@@ -26,6 +26,12 @@ main {
 }
 
 
+@media(max-width: 880px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
 .esquerda, .experiencias, .educacao {
     background-color: white;
     border-radius: 10px;
